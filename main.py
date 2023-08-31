@@ -20,7 +20,7 @@ st.set_page_config(page_title= "Phonepe Pulse Data Visualization",
 mydb=mysql.connect(
       host="localhost",
       user="root",
-      password="Positive011205?",
+      password="Password",
       database="phonepe")
 mycursor=mydb.cursor(buffered=True)
 
