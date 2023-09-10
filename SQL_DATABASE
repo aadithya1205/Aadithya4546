@@ -138,7 +138,7 @@ mycursor.execute("CREATE DATABASE phonepe")
 mydb=mysql.connect(
       host="localhost",
       user="root",
-      password="Positive011205?",
+      password="PASSWORD",
       database="phonepe")
 mycursor=mydb.cursor(buffered=True)
 #CREATING TABLE AND INSERTING VALUES FROM DATAFRAMES TO SQL TABLES
